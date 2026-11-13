@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 250" width="960" height="250" role="img" aria-label="human-typing replaying a real plan: uneven keystrokes, a typo fixed with Backspace and an identifier pasted from the clipboard">
+<title>human-typing demo (seed 7)</title>
+<style>
+:root{--bg:#ffffff;--card:#f6f8fa;--line:#d0d7de;--fg:#1f2328;--mute:#59636e;--paste:#9a6700;--pastebg:#fff8c5;--back:#cf222e;--accent:#0969da}
+@media (prefers-color-scheme: dark){:root{--bg:#0d1117;--card:#161b22;--line:#30363d;--fg:#e6edf3;--mute:#9198a1;--paste:#e3b341;--pastebg:#3b2e00;--back:#ff7b72;--accent:#4493f8}}
+text{font-family:ui-monospace,SFMono-Regular,Consolas,Menlo,monospace}
+.field{font-size:19px;fill:var(--fg)}
+.paste{fill:var(--paste);font-weight:600}
+.caret{fill:var(--accent)}
+.label{font-size:15px;fill:var(--mute)}
+.small{font-size:13px;fill:var(--mute)}
+.tk{fill:var(--mute)}.tk.back{fill:var(--back)}.tk.pst{fill:var(--paste)}
+.fr{opacity:0}
+@keyframes f0{0%,0.000%{opacity:0}0.001%,4.276%{opacity:1}4.277%,100%{opacity:0}}.f0{animation:f0 19996ms infinite}
+@keyframes f1{0%,4.276%{opacity:0}4.277%,4.766%{opacity:1}4.767%,100%{opacity:0}}.f1{animation:f1 19996ms infinite}
+@keyframes f2{0%,4.766%{opacity:0}4.767%,5.121%{opacity:1}5.122%,100%{opacity:0}}.f2{animation:f2 19996ms infinite}
+@keyframes f3{0%,5.121%{opacity:0}5.122%,6.051%{opacity:1}6.052%,100%{opacity:0}}.f3{animation:f3 19996ms infinite}
+@keyframes f4{0%,6.051%{opacity:0}6.052%,6.951%{opacity:1}6.952%,100%{opacity:0}}.f4{animation:f4 19996ms infinite}
+@keyframes f5{0%,6.951%{opacity:0}6.952%,7.662%{opacity:1}7.663%,100%{opacity:0}}.f5{animation:f5 19996ms infinite}
+@keyframes f6{0%,7.662%{opacity:0}7.663%,8.182%{opacity:1}8.183%,100%{opacity:0}}.f6{animation:f6 19996ms infinite}
+@keyframes f7{0%,8.182%{opacity:0}8.183%,8.997%{opacity:1}8.998%,100%{opacity:0}}.f7{animation:f7 19996ms infinite}
+@keyframes f8{0%,8.997%{opacity:0}8.998%,9.582%{opacity:1}9.583%,100%{opacity:0}}.f8{animation:f8 19996ms infinite}
+@keyframes f9{0%,9.582%{opacity:0}9.583%,10.282%{opacity:1}10.283%,100%{opacity:0}}.f9{animation:f9 19996ms infinite}
+@keyframes f10{0%,10.282%{opacity:0}10.283%,10.757%{opacity:1}10.758%,100%{opacity:0}}.f10{animation:f10 19996ms infinite}
+@keyframes f11{0%,10.757%{opacity:0}10.758%,11.762%{opacity:1}11.763%,100%{opacity:0}}.f11{animation:f11 19996ms infinite}
+@keyframes f12{0%,11.762%{opacity:0}11.763%,12.227%{opacity:1}12.228%,100%{opacity:0}}.f12{animation:f12 19996ms infinite}
+@keyframes f13{0%,12.227%{opacity:0}12.228%,12.978%{opacity:1}12.979%,100%{opacity:0}}.f13{animation:f13 19996ms infinite}
+@keyframes f14{0%,12.978%{opacity:0}12.979%,13.783%{opacity:1}13.784%,100%{opacity:0}}.f14{animation:f14 19996ms infinite}
+@keyframes f15{0%,13.783%{opacity:0}13.784%,14.563%{opacity:1}14.564%,100%{opacity:0}}.f15{animation:f15 19996ms infinite}
+@keyframes f16{0%,14.563%{opacity:0}14.564%,15.508%{opacity:1}15.509%,100%{opacity:0}}.f16{animation:f16 19996ms infinite}
+@keyframes f17{0%,15.508%{opacity:0}15.509%,16.673%{opacity:1}16.674%,100%{opacity:0}}.f17{animation:f17 19996ms infinite}
+@keyframes f18{0%,16.673%{opacity:0}16.674%,40.278%{opacity:1}40.279%,100%{opacity:0}}.f18{animation:f18 19996ms infinite}
+@keyframes f19{0%,40.278%{opacity:0}40.279%,45.699%{opacity:1}45.700%,100%{opacity:0}}.f19{animation:f19 19996ms infinite}
+@keyframes f20{0%,45.699%{opacity:0}45.700%,48.590%{opacity:1}48.591%,100%{opacity:0}}.f20{animation:f20 19996ms infinite}
+@keyframes f21{0%,48.590%{opacity:0}48.591%,49.200%{opacity:1}49.201%,100%{opacity:0}}.f21{animation:f21 19996ms infinite}
+@keyframes f22{0%,49.200%{opacity:0}49.201%,51.300%{opacity:1}51.301%,100%{opacity:0}}.f22{animation:f22 19996ms infinite}
+@keyframes f23{0%,51.300%{opacity:0}51.301%,52.621%{opacity:1}52.622%,100%{opacity:0}}.f23{animation:f23 19996ms infinite}
+@keyframes f24{0%,52.621%{opacity:0}52.622%,53.576%{opacity:1}53.577%,100%{opacity:0}}.f24{animation:f24 19996ms infinite}
+@keyframes f25{0%,53.576%{opacity:0}53.577%,54.331%{opacity:1}54.332%,100%{opacity:0}}.f25{animation:f25 19996ms infinite}
+@keyframes f26{0%,54.331%{opacity:0}54.332%,54.851%{opacity:1}54.852%,100%{opacity:0}}.f26{animation:f26 19996ms infinite}
+@keyframes f27{0%,54.851%{opacity:0}54.852%,56.041%{opacity:1}56.042%,100%{opacity:0}}.f27{animation:f27 19996ms infinite}
+@keyframes f28{0%,56.041%{opacity:0}56.042%,57.952%{opacity:1}57.953%,100%{opacity:0}}.f28{animation:f28 19996ms infinite}
+@keyframes f29{0%,57.952%{opacity:0}57.953%,58.487%{opacity:1}58.488%,100%{opacity:0}}.f29{animation:f29 19996ms infinite}
+@keyframes f30{0%,58.487%{opacity:0}58.488%,59.192%{opacity:1}59.193%,100%{opacity:0}}.f30{animation:f30 19996ms infinite}
+@keyframes f31{0%,59.192%{opacity:0}59.193%,59.832%{opacity:1}59.833%,100%{opacity:0}}.f31{animation:f31 19996ms infinite}
+@keyframes f32{0%,59.832%{opacity:0}59.833%,60.262%{opacity:1}60.263%,100%{opacity:0}}.f32{animation:f32 19996ms infinite}
+@keyframes f33{0%,60.262%{opacity:0}60.263%,61.857%{opacity:1}61.858%,100%{opacity:0}}.f33{animation:f33 19996ms infinite}
+@keyframes f34{0%,61.857%{opacity:0}61.858%,62.533%{opacity:1}62.534%,100%{opacity:0}}.f34{animation:f34 19996ms infinite}
+@keyframes f35{0%,62.533%{opacity:0}62.534%,63.588%{opacity:1}63.589%,100%{opacity:0}}.f35{animation:f35 19996ms infinite}
+@keyframes f36{0%,63.588%{opacity:0}63.589%,64.753%{opacity:1}64.754%,100%{opacity:0}}.f36{animation:f36 19996ms infinite}
+@keyframes f37{0%,64.753%{opacity:0}64.754%,65.383%{opacity:1}65.384%,100%{opacity:0}}.f37{animation:f37 19996ms infinite}
+@keyframes f38{0%,65.383%{opacity:0}65.384%,66.528%{opacity:1}66.529%,100%{opacity:0}}.f38{animation:f38 19996ms infinite}
+@keyframes f39{0%,66.528%{opacity:0}66.529%,67.448%{opacity:1}67.449%,100%{opacity:0}}.f39{animation:f39 19996ms infinite}
+@keyframes f40{0%,67.448%{opacity:0}67.449%,67.994%{opacity:1}67.995%,100%{opacity:0}}.f40{animation:f40 19996ms infinite}
+@keyframes f41{0%,67.994%{opacity:0}67.995%,68.554%{opacity:1}68.555%,100%{opacity:0}}.f41{animation:f41 19996ms infinite}
+@keyframes f42{0%,68.554%{opacity:0}68.555%,69.034%{opacity:1}69.035%,100%{opacity:0}}.f42{animation:f42 19996ms infinite}
+@keyframes f43{0%,69.034%{opacity:0}69.035%,69.964%{opacity:1}69.965%,100%{opacity:0}}.f43{animation:f43 19996ms infinite}
+@keyframes f44{0%,69.964%{opacity:0}69.965%,71.004%{opacity:1}71.005%,100%{opacity:0}}.f44{animation:f44 19996ms infinite}
+@keyframes f45{0%,71.004%{opacity:0}71.005%,71.544%{opacity:1}71.545%,100%{opacity:0}}.f45{animation:f45 19996ms infinite}
+@keyframes f46{0%,71.544%{opacity:0}71.545%,71.809%{opacity:1}71.810%,100%{opacity:0}}.f46{animation:f46 19996ms infinite}
+@keyframes f47{0%,71.809%{opacity:0}71.810%,72.660%{opacity:1}72.661%,100%{opacity:0}}.f47{animation:f47 19996ms infinite}
+@keyframes f48{0%,72.660%{opacity:0}72.661%,74.145%{opacity:1}74.146%,100%{opacity:0}}.f48{animation:f48 19996ms infinite}
+@keyframes f49{0%,74.145%{opacity:0}74.146%,75.075%{opacity:1}75.076%,100%{opacity:0}}.f49{animation:f49 19996ms infinite}
+@keyframes f50{0%,75.075%{opacity:0}75.076%,75.580%{opacity:1}75.581%,100%{opacity:0}}.f50{animation:f50 19996ms infinite}
+@keyframes f51{0%,75.580%{opacity:0}75.581%,76.225%{opacity:1}76.226%,100%{opacity:0}}.f51{animation:f51 19996ms infinite}
+@keyframes f52{0%,76.225%{opacity:0}76.226%,76.595%{opacity:1}76.596%,100%{opacity:0}}.f52{animation:f52 19996ms infinite}
+@keyframes f53{0%,76.595%{opacity:0}76.596%,77.140%{opacity:1}77.141%,100%{opacity:0}}.f53{animation:f53 19996ms infinite}
+@keyframes f54{0%,77.140%{opacity:0}77.141%,77.716%{opacity:1}77.717%,100%{opacity:0}}.f54{animation:f54 19996ms infinite}
+@keyframes f55{0%,77.716%{opacity:0}77.717%,78.071%{opacity:1}78.072%,100%{opacity:0}}.f55{animation:f55 19996ms infinite}
+@keyframes f56{0%,78.071%{opacity:0}78.072%,78.841%{opacity:1}78.842%,100%{opacity:0}}.f56{animation:f56 19996ms infinite}
+@keyframes f57{0%,78.841%{opacity:0}78.842%,79.706%{opacity:1}79.707%,100%{opacity:0}}.f57{animation:f57 19996ms infinite}
+@keyframes f58{0%,79.706%{opacity:0}79.707%,80.021%{opacity:1}80.022%,100%{opacity:0}}.f58{animation:f58 19996ms infinite}
+@keyframes f59{0%,80.021%{opacity:0}80.022%,80.701%{opacity:1}80.702%,100%{opacity:0}}.f59{animation:f59 19996ms infinite}
+@keyframes f60{0%,80.701%{opacity:0}80.702%,81.636%{opacity:1}81.637%,100%{opacity:0}}.f60{animation:f60 19996ms infinite}
+@keyframes f61{0%,81.636%{opacity:0}81.637%,82.496%{opacity:1}82.497%,100%{opacity:0}}.f61{animation:f61 19996ms infinite}
+@keyframes f62{0%,82.496%{opacity:0}82.497%,100.000%{opacity:1}100.001%,100%{opacity:0}}.f62{animation:f62 19996ms infinite}
+@keyframes ph{0%{transform:translateX(0)}82.496%,100%{transform:translateX(880px)}}.ph{animation:ph 19996ms linear infinite}
+</style>
+<rect width="960" height="250" rx="12" fill="var(--bg)" stroke="var(--line)"/>
+<text class="small" x="40" y="40">Claude in Chrome &#183; comment box &#183; default settings &#183; seed 7 &#183; 62 keystrokes in 15.9 s</text>
+<rect x="40" y="66" width="880" height="60" rx="8" fill="var(--card)" stroke="var(--line)"/>
+<g class="fr f0"><text class="field" x="56" y="104"><tspan class="caret">|</tspan></text><text class="label" x="40" y="168">focus the comment box</text></g>
+<g class="fr f1"><text class="field" x="56" y="104">C<tspan class="caret">|</tspan></text><text class="label" x="40" y="168">typing</text></g>
+<g class="fr f2"><text class="field" x="56" y="104">Ca<tspan class="caret">|</tspan></text><text class="label" x="40" y="168">typing</text></g>
+<g class="fr f3"><text class="field" x="56" y="104">Can<tspan class="caret">|</tspan></text><text class="label" x="40" y="168">typing</text></g>
+<g class="fr f4"><text class="field" x="56" y="104">Can <tspan class="caret">|</tspan></text><text class="label" x="40" y="168">typing</text></g>
+<g class="fr f5"><text class="field" x="56" y="104">Can y<tspan class="caret">|</tspan></text><text class="label" x="40" y="168">typing</text></g>
+<g class="fr f6"><text class="field" x="56" y="104">Can yo<tspan class="caret">|</tspan></text><text class="label" x="40" y="168">typing</text></g>
+<g class="fr f7"><text class="field" x="56" y="104">Can you<tspan class="caret">|</tspan></text><text class="label" x="40" y="168">typing</text></g>
+<g class="fr f8"><text class="field" x="56" y="104">Can you <tspan class="caret">|</tspan></text><text class="label" x="40" y="168">typing</text></g>
+<g class="fr f9"><text class="field" x="56" y="104">Can you c<tspan class="caret">|</tspan></text><text class="label" x="40" y="168">typing</text></g>
+<g class="fr f10"><text class="field" x="56" y="104">Can you ch<tspan class="caret">|</tspan></text><text class="label" x="40" y="168">typing</text></g>
+<g class="fr f11"><text class="field" x="56" y="104">Can you che<tspan class="caret">|</tspan></text><text class="label" x="40" y="168">typing</text></g>
+<g class="fr f12"><text class="field" x="56" y="104">Can you chec<tspan class="caret">|</tspan></text><text class="label" x="40" y="168">typing</text></g>
+<g class="fr f13"><text class="field" x="56" y="104">Can you check<tspan class="caret">|</tspan></text><text class="label" x="40" y="168">typing</text></g>
+<g class="fr f14"><text class="field" x="56" y="104">Can you check <tspan class="caret">|</tspan></text><text class="label" x="40" y="168">typing</text></g>
+<g class="fr f15"><text class="field" x="56" y="104">Can you check w<tspan class="caret">|</tspan></text><text class="label" x="40" y="168">typing</text></g>
+<g class="fr f16"><text class="field" x="56" y="104">Can you check wh<tspan class="caret">|</tspan></text><text class="label" x="40" y="168">typing</text></g>
+<g class="fr f17"><text class="field" x="56" y="104">Can you check why<tspan class="caret">|</tspan></text><text class="label" x="40" y="168">typing</text></g>
+<g class="fr f18"><text class="field" x="56" y="104">Can you check why <tspan class="caret">|</tspan></text><text class="label" x="40" y="168">typing</text></g>
+<g class="fr f19"><text class="field" x="56" y="104">Can you check why <tspan class="paste">fetch_user_profile</tspan><tspan class="caret">|</tspan></text><text class="label" x="40" y="168">copied from the editor: Ctrl+V (after 4.7 s)</text></g>
+<g class="fr f20"><text class="field" x="56" y="104">Can you check why <tspan class="paste">fetch_user_profile</tspan> <tspan class="caret">|</tspan></text><text class="label" x="40" y="168">pause 1.1 s, then type</text></g>
+<g class="fr f21"><text class="field" x="56" y="104">Can you check why <tspan class="paste">fetch_user_profile</tspan> r<tspan class="caret">|</tspan></text><text class="label" x="40" y="168">pause 0.6 s, then type</text></g>
+<g class="fr f22"><text class="field" x="56" y="104">Can you check why <tspan class="paste">fetch_user_profile</tspan> rr<tspan class="caret">|</tspan></text><text class="label" x="40" y="168">typing</text></g>
+<g class="fr f23"><text class="field" x="56" y="104">Can you check why <tspan class="paste">fetch_user_profile</tspan> r<tspan class="caret">|</tspan></text><text class="label" x="40" y="168">typo noticed: Backspace</text></g>
+<g class="fr f24"><text class="field" x="56" y="104">Can you check why <tspan class="paste">fetch_user_profile</tspan> re<tspan class="caret">|</tspan></text><text class="label" x="40" y="168">typing</text></g>
+<g class="fr f25"><text class="field" x="56" y="104">Can you check why <tspan class="paste">fetch_user_profile</tspan> ret<tspan class="caret">|</tspan></text><text class="label" x="40" y="168">typing</text></g>
+<g class="fr f26"><text class="field" x="56" y="104">Can you check why <tspan class="paste">fetch_user_profile</tspan> retu<tspan class="caret">|</tspan></text><text class="label" x="40" y="168">typing</text></g>
+<g class="fr f27"><text class="field" x="56" y="104">Can you check why <tspan class="paste">fetch_user_profile</tspan> retun<tspan class="caret">|</tspan></text><text class="label" x="40" y="168">typing</text></g>
+<g class="fr f28"><text class="field" x="56" y="104">Can you check why <tspan class="paste">fetch_user_profile</tspan> retunr<tspan class="caret">|</tspan></text><text class="label" x="40" y="168">typing</text></g>
+<g class="fr f29"><text class="field" x="56" y="104">Can you check why <tspan class="paste">fetch_user_profile</tspan> retun<tspan class="caret">|</tspan></text><text class="label" x="40" y="168">typo noticed: Backspace</text></g>
+<g class="fr f30"><text class="field" x="56" y="104">Can you check why <tspan class="paste">fetch_user_profile</tspan> retu<tspan class="caret">|</tspan></text><text class="label" x="40" y="168">typo noticed: Backspace</text></g>
+<g class="fr f31"><text class="field" x="56" y="104">Can you check why <tspan class="paste">fetch_user_profile</tspan> retur<tspan class="caret">|</tspan></text><text class="label" x="40" y="168">typing</text></g>
+<g class="fr f32"><text class="field" x="56" y="104">Can you check why <tspan class="paste">fetch_user_profile</tspan> return<tspan class="caret">|</tspan></text><text class="label" x="40" y="168">typing</text></g>
+<g class="fr f33"><text class="field" x="56" y="104">Can you check why <tspan class="paste">fetch_user_profile</tspan> returns<tspan class="caret">|</tspan></text><text class="label" x="40" y="168">typing</text></g>
+<g class="fr f34"><text class="field" x="56" y="104">Can you check why <tspan class="paste">fetch_user_profile</tspan> returns <tspan class="caret">|</tspan></text><text class="label" x="40" y="168">typing</text></g>
+<g class="fr f35"><text class="field" x="56" y="104">Can you check why <tspan class="paste">fetch_user_profile</tspan> returns n<tspan class="caret">|</tspan></text><text class="label" x="40" y="168">typing</text></g>
+<g class="fr f36"><text class="field" x="56" y="104">Can you check why <tspan class="paste">fetch_user_profile</tspan> returns nu<tspan class="caret">|</tspan></text><text class="label" x="40" y="168">typing</text></g>
+<g class="fr f37"><text class="field" x="56" y="104">Can you check why <tspan class="paste">fetch_user_profile</tspan> returns nul<tspan class="caret">|</tspan></text><text class="label" x="40" y="168">typing</text></g>
+<g class="fr f38"><text class="field" x="56" y="104">Can you check why <tspan class="paste">fetch_user_profile</tspan> returns null<tspan class="caret">|</tspan></text><text class="label" x="40" y="168">typing</text></g>
+<g class="fr f39"><text class="field" x="56" y="104">Can you check why <tspan class="paste">fetch_user_profile</tspan> returns null <tspan class="caret">|</tspan></text><text class="label" x="40" y="168">typing</text></g>
+<g class="fr f40"><text class="field" x="56" y="104">Can you check why <tspan class="paste">fetch_user_profile</tspan> returns null w<tspan class="caret">|</tspan></text><text class="label" x="40" y="168">typing</text></g>
+<g class="fr f41"><text class="field" x="56" y="104">Can you check why <tspan class="paste">fetch_user_profile</tspan> returns null wh<tspan class="caret">|</tspan></text><text class="label" x="40" y="168">typing</text></g>
+<g class="fr f42"><text class="field" x="56" y="104">Can you check why <tspan class="paste">fetch_user_profile</tspan> returns null whe<tspan class="caret">|</tspan></text><text class="label" x="40" y="168">typing</text></g>
+<g class="fr f43"><text class="field" x="56" y="104">Can you check why <tspan class="paste">fetch_user_profile</tspan> returns null when<tspan class="caret">|</tspan></text><text class="label" x="40" y="168">typing</text></g>
+<g class="fr f44"><text class="field" x="56" y="104">Can you check why <tspan class="paste">fetch_user_profile</tspan> returns null when <tspan class="caret">|</tspan></text><text class="label" x="40" y="168">typing</text></g>
+<g class="fr f45"><text class="field" x="56" y="104">Can you check why <tspan class="paste">fetch_user_profile</tspan> returns null when t<tspan class="caret">|</tspan></text><text class="label" x="40" y="168">typing</text></g>
+<g class="fr f46"><text class="field" x="56" y="104">Can you check why <tspan class="paste">fetch_user_profile</tspan> returns null when th<tspan class="caret">|</tspan></text><text class="label" x="40" y="168">typing</text></g>
+<g class="fr f47"><text class="field" x="56" y="104">Can you check why <tspan class="paste">fetch_user_profile</tspan> returns null when the<tspan class="caret">|</tspan></text><text class="label" x="40" y="168">typing</text></g>
+<g class="fr f48"><text class="field" x="56" y="104">Can you check why <tspan class="paste">fetch_user_profile</tspan> returns null when the <tspan class="caret">|</tspan></text><text class="label" x="40" y="168">typing</text></g>
+<g class="fr f49"><text class="field" x="56" y="104">Can you check why <tspan class="paste">fetch_user_profile</tspan> returns null when the c<tspan class="caret">|</tspan></text><text class="label" x="40" y="168">typing</text></g>
+<g class="fr f50"><text class="field" x="56" y="104">Can you check why <tspan class="paste">fetch_user_profile</tspan> returns null when the ca<tspan class="caret">|</tspan></text><text class="label" x="40" y="168">typing</text></g>
+<g class="fr f51"><text class="field" x="56" y="104">Can you check why <tspan class="paste">fetch_user_profile</tspan> returns null when the cac<tspan class="caret">|</tspan></text><text class="label" x="40" y="168">typing</text></g>
+<g class="fr f52"><text class="field" x="56" y="104">Can you check why <tspan class="paste">fetch_user_profile</tspan> returns null when the cach<tspan class="caret">|</tspan></text><text class="label" x="40" y="168">typing</text></g>
+<g class="fr f53"><text class="field" x="56" y="104">Can you check why <tspan class="paste">fetch_user_profile</tspan> returns null when the cache<tspan class="caret">|</tspan></text><text class="label" x="40" y="168">typing</text></g>
+<g class="fr f54"><text class="field" x="56" y="104">Can you check why <tspan class="paste">fetch_user_profile</tspan> returns null when the cache <tspan class="caret">|</tspan></text><text class="label" x="40" y="168">typing</text></g>
+<g class="fr f55"><text class="field" x="56" y="104">Can you check why <tspan class="paste">fetch_user_profile</tspan> returns null when the cache i<tspan class="caret">|</tspan></text><text class="label" x="40" y="168">typing</text></g>
+<g class="fr f56"><text class="field" x="56" y="104">Can you check why <tspan class="paste">fetch_user_profile</tspan> returns null when the cache is<tspan class="caret">|</tspan></text><text class="label" x="40" y="168">typing</text></g>
+<g class="fr f57"><text class="field" x="56" y="104">Can you check why <tspan class="paste">fetch_user_profile</tspan> returns null when the cache is <tspan class="caret">|</tspan></text><text class="label" x="40" y="168">typing</text></g>
+<g class="fr f58"><text class="field" x="56" y="104">Can you check why <tspan class="paste">fetch_user_profile</tspan> returns null when the cache is c<tspan class="caret">|</tspan></text><text class="label" x="40" y="168">typing</text></g>
+<g class="fr f59"><text class="field" x="56" y="104">Can you check why <tspan class="paste">fetch_user_profile</tspan> returns null when the cache is co<tspan class="caret">|</tspan></text><text class="label" x="40" y="168">typing</text></g>
+<g class="fr f60"><text class="field" x="56" y="104">Can you check why <tspan class="paste">fetch_user_profile</tspan> returns null when the cache is col<tspan class="caret">|</tspan></text><text class="label" x="40" y="168">typing</text></g>
+<g class="fr f61"><text class="field" x="56" y="104">Can you check why <tspan class="paste">fetch_user_profile</tspan> returns null when the cache is cold<tspan class="caret">|</tspan></text><text class="label" x="40" y="168">typing</text></g>
+<g class="fr f62"><text class="field" x="56" y="104">Can you check why <tspan class="paste">fetch_user_profile</tspan> returns null when the cache is cold?<tspan class="caret">|</tspan></text><text class="label" x="40" y="168">typing</text></g>
+<g><rect class="tk" x="85.6" y="208" width="2" height="14" rx="1"/><rect class="tk" x="90.8" y="208" width="2" height="14" rx="1"/><rect class="tk" x="94.6" y="208" width="2" height="14" rx="1"/><rect class="tk" x="104.5" y="208" width="2" height="14" rx="1"/><rect class="tk" x="114.2" y="208" width="2" height="14" rx="1"/><rect class="tk" x="121.7" y="208" width="2" height="14" rx="1"/><rect class="tk" x="127.3" y="208" width="2" height="14" rx="1"/><rect class="tk" x="136.0" y="208" width="2" height="14" rx="1"/><rect class="tk" x="142.2" y="208" width="2" height="14" rx="1"/><rect class="tk" x="149.7" y="208" width="2" height="14" rx="1"/><rect class="tk" x="154.7" y="208" width="2" height="14" rx="1"/><rect class="tk" x="165.5" y="208" width="2" height="14" rx="1"/><rect class="tk" x="170.4" y="208" width="2" height="14" rx="1"/><rect class="tk" x="178.4" y="208" width="2" height="14" rx="1"/><rect class="tk" x="187.0" y="208" width="2" height="14" rx="1"/><rect class="tk" x="195.3" y="208" width="2" height="14" rx="1"/><rect class="tk" x="205.4" y="208" width="2" height="14" rx="1"/><rect class="tk" x="217.9" y="208" width="2" height="14" rx="1"/><rect class="tk pst" x="469.7" y="196" width="4" height="26" rx="1"/><rect class="tk" x="527.5" y="208" width="2" height="14" rx="1"/><rect class="tk" x="558.3" y="208" width="2" height="14" rx="1"/><rect class="tk" x="564.8" y="208" width="2" height="14" rx="1"/><rect class="tk back" x="587.2" y="196" width="2" height="26" rx="1"/><rect class="tk" x="601.3" y="208" width="2" height="14" rx="1"/><rect class="tk" x="611.5" y="208" width="2" height="14" rx="1"/><rect class="tk" x="619.6" y="208" width="2" height="14" rx="1"/><rect class="tk" x="625.1" y="208" width="2" height="14" rx="1"/><rect class="tk" x="637.8" y="208" width="2" height="14" rx="1"/><rect class="tk back" x="658.2" y="196" width="2" height="26" rx="1"/><rect class="tk back" x="663.9" y="196" width="2" height="26" rx="1"/><rect class="tk" x="671.4" y="208" width="2" height="14" rx="1"/><rect class="tk" x="678.2" y="208" width="2" height="14" rx="1"/><rect class="tk" x="682.8" y="208" width="2" height="14" rx="1"/><rect class="tk" x="699.8" y="208" width="2" height="14" rx="1"/><rect class="tk" x="707.0" y="208" width="2" height="14" rx="1"/><rect class="tk" x="718.3" y="208" width="2" height="14" rx="1"/><rect class="tk" x="730.7" y="208" width="2" height="14" rx="1"/><rect class="tk" x="737.4" y="208" width="2" height="14" rx="1"/><rect class="tk" x="749.7" y="208" width="2" height="14" rx="1"/><rect class="tk" x="759.5" y="208" width="2" height="14" rx="1"/><rect class="tk" x="765.3" y="208" width="2" height="14" rx="1"/><rect class="tk" x="771.3" y="208" width="2" height="14" rx="1"/><rect class="tk" x="776.4" y="208" width="2" height="14" rx="1"/><rect class="tk" x="786.3" y="208" width="2" height="14" rx="1"/><rect class="tk" x="797.4" y="208" width="2" height="14" rx="1"/><rect class="tk" x="803.2" y="208" width="2" height="14" rx="1"/><rect class="tk" x="806.0" y="208" width="2" height="14" rx="1"/><rect class="tk" x="815.1" y="208" width="2" height="14" rx="1"/><rect class="tk" x="830.9" y="208" width="2" height="14" rx="1"/><rect class="tk" x="840.8" y="208" width="2" height="14" rx="1"/><rect class="tk" x="846.2" y="208" width="2" height="14" rx="1"/><rect class="tk" x="853.1" y="208" width="2" height="14" rx="1"/><rect class="tk" x="857.1" y="208" width="2" height="14" rx="1"/><rect class="tk" x="862.9" y="208" width="2" height="14" rx="1"/><rect class="tk" x="869.0" y="208" width="2" height="14" rx="1"/><rect class="tk" x="872.8" y="208" width="2" height="14" rx="1"/><rect class="tk" x="881.0" y="208" width="2" height="14" rx="1"/><rect class="tk" x="890.2" y="208" width="2" height="14" rx="1"/><rect class="tk" x="893.6" y="208" width="2" height="14" rx="1"/><rect class="tk" x="900.8" y="208" width="2" height="14" rx="1"/><rect class="tk" x="910.8" y="208" width="2" height="14" rx="1"/><rect class="tk" x="920.0" y="208" width="2" height="14" rx="1"/></g>
+<line x1="40" x2="920" y1="223" y2="223" stroke="var(--line)"/>
+<rect class="ph" x="39" y="190" width="2" height="38" fill="var(--accent)"/>
+<text class="small" x="920" y="244" text-anchor="end">grey: key &#183; red: Backspace &#183; amber: paste</text>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-label="human-typing logo">
+  <title>human-typing</title>
+  <rect x="8" y="12" width="112" height="104" rx="22" fill="#0F766E"/>
+  <rect x="18" y="18" width="92" height="80" rx="14" fill="#14B8A6"/>
+  <g fill="#FFFFFF">
+    <rect x="28" y="44" width="5" height="28" rx="2.5"/>
+    <rect x="38" y="44" width="5" height="28" rx="2.5"/>
+    <rect x="54" y="44" width="5" height="28" rx="2.5"/>
+    <rect x="61" y="44" width="5" height="28" rx="2.5"/>
+    <rect x="81" y="44" width="5" height="28" rx="2.5"/>
+  </g>
+  <rect x="71" y="44" width="5" height="28" rx="2.5" fill="#FBBF24"/>
+  <rect x="94" y="36" width="6" height="44" rx="3" fill="#0B3B37"/>
+</svg>

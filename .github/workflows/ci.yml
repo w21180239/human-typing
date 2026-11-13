@@ -1,0 +1,69 @@
+name: ci
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    name: test (${{ matrix.os }}, node ${{ matrix.node }})
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
+        node: [18, 20, 22]
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: ${{ matrix.node }}
+
+      - name: Run the tests
+        run: npm test
+
+      - name: Score the span rules
+        run: npm run eval
+
+      - name: Check the version is the same everywhere
+        shell: bash
+        run: |
+          set -euo pipefail
+          pkg=$(node -p "require('./package.json').version")
+          plugin=$(node -p "require('./plugins/human-typing/.claude-plugin/plugin.json').version")
+          cli=$(node plugins/human-typing/skills/human-typing/scripts/humantype.mjs --version)
+          echo "package.json=$pkg plugin.json=$plugin cli=$cli"
+          if [[ "$pkg" != "$plugin" || "$pkg" != "$cli" ]]; then
+            echo "::error::version mismatch"
+            exit 1
+          fi
+
+  plugin:
+    name: validate the plugin
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+
+      - name: Install the Claude Code CLI
+        run: npm i -g @anthropic-ai/claude-code
+
+      - name: Validate the marketplace
+        run: claude plugin validate .
+
+      - name: Validate the plugin
+        run: claude plugin validate plugins/human-typing

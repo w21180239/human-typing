@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="1280" height="640">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06201E"/>
+      <stop offset="1" stop-color="#0B2F3A"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="640" fill="url(#bg)"/>
+
+  <g transform="translate(64 52) scale(0.75)">
+    <rect x="8" y="12" width="112" height="104" rx="22" fill="#0F766E"/>
+    <rect x="18" y="18" width="92" height="80" rx="14" fill="#14B8A6"/>
+    <g fill="#FFFFFF">
+      <rect x="28" y="44" width="5" height="28" rx="2.5"/>
+      <rect x="38" y="44" width="5" height="28" rx="2.5"/>
+      <rect x="54" y="44" width="5" height="28" rx="2.5"/>
+      <rect x="61" y="44" width="5" height="28" rx="2.5"/>
+      <rect x="81" y="44" width="5" height="28" rx="2.5"/>
+    </g>
+    <rect x="71" y="44" width="5" height="28" rx="2.5" fill="#FBBF24"/>
+    <rect x="94" y="36" width="6" height="44" rx="3" fill="#0B3B37"/>
+  </g>
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
+    <text x="176" y="124" font-size="76" font-weight="700" fill="#FFFFFF">human-typing</text>
+    <text x="68" y="198" font-size="32" fill="#C3E5E1">Your AI browser agent types into Chrome the way you do:</text>
+    <text x="68" y="240" font-size="32" fill="#C3E5E1">uneven keys, real typos fixed, code pasted from the editor.</text>
+  </g>
+
+  <g transform="translate(68 300)">
+    <rect width="1144" height="92" rx="14" fill="#0E3A37" stroke="#1F5C57"/>
+    <text x="28" y="57" font-family="Consolas, Menlo, monospace" font-size="30" fill="#E6F4F2">Can you check why <tspan fill="#FBBF24" font-weight="700">fetch_user_profile</tspan> retunr<tspan fill="#FF7B72">&#x232B;&#x232B;</tspan>rns null<tspan fill="#5EEAD4">|</tspan></text>
+  </g>
+
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
+    <text x="68" y="490" font-size="56" font-weight="700" fill="#FBBF24">0.97 / 0.94</text>
+    <text x="68" y="526" font-size="22" fill="#9CC9C3">precision / recall picking code to paste</text>
+    <text x="520" y="490" font-size="56" font-weight="700" fill="#5EEAD4">~60 WPM</text>
+    <text x="520" y="526" font-size="22" fill="#9CC9C3">default, from 136M keystrokes</text>
+    <text x="900" y="490" font-size="56" font-weight="700" fill="#FFFFFF">0 deps</text>
+    <text x="900" y="526" font-size="22" fill="#9CC9C3">one Node script, CLI + skill</text>
+    <text x="68" y="596" font-size="22" fill="#6FA8A1">Claude in Chrome · Browser MCP · Claude Code plugin · npm i -g humantype</text>
+  </g>
+</svg>

@@ -1,0 +1,28 @@
+{
+  "name": "humantype",
+  "version": "0.1.0",
+  "description": "Human-like typing for AI browser agents: keystroke plans with uneven timing, thinking pauses, typos fixed with Backspace and code identifiers pasted from the clipboard, rendered for Claude in Chrome and Browser MCP.",
+  "type": "module",
+  "bin": {
+    "humantype": "plugins/human-typing/skills/human-typing/scripts/humantype.mjs"
+  },
+  "exports": "./plugins/human-typing/skills/human-typing/scripts/humantype.mjs",
+  "files": [
+    "plugins/human-typing/skills/human-typing/",
+    "LICENSE-MIT",
+    "LICENSE-APACHE"
+  ],
+  "scripts": {
+    "test": "node --test tests/",
+    "eval": "node tools/span-eval.mjs && node tools/span-eval.mjs tests/fixtures/spans-holdout.json"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": ["human-typing", "human-like-typing", "typing-simulator", "keystroke", "keystroke-dynamics", "realistic-typing", "browser-automation", "claude-in-chrome", "browser-mcp", "claude-code", "ai-agent", "agent-skill", "typo", "cli"],
+  "repository": { "type": "git", "url": "git+https://github.com/w21180239/human-typing.git" },
+  "homepage": "https://github.com/w21180239/human-typing#readme",
+  "bugs": "https://github.com/w21180239/human-typing/issues",
+  "author": "w21180239",
+  "license": "(MIT OR Apache-2.0)"
+}

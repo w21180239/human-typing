@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and ideas
+    url: https://github.com/w21180239/human-typing/discussions
+    about: Usage questions, tuning wpm and typo rates, and general discussion
+  - name: Security vulnerability
+    url: https://github.com/w21180239/human-typing/security/advisories/new
+    about: Report privately, not in a public issue

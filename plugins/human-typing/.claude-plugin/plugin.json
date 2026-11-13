@@ -1,0 +1,10 @@
+{
+  "name": "human-typing",
+  "version": "0.1.0",
+  "description": "Human-like typing for AI browser agents. Claude types into your real Chrome with uneven keystroke timing, thinking pauses, typos fixed with Backspace and code identifiers pasted from the clipboard, through Claude in Chrome or Browser MCP. Zero dependencies, offline planner.",
+  "author": { "name": "w21180239" },
+  "license": "MIT OR Apache-2.0",
+  "repository": "https://github.com/w21180239/human-typing",
+  "homepage": "https://github.com/w21180239/human-typing",
+  "keywords": ["human-typing", "human-like-typing", "keystroke", "typing-simulator", "browser-automation", "claude-in-chrome", "browser-mcp", "ai-agent", "skill"]
+}

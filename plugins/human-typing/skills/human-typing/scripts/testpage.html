@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>humantype probe</title>
+<style>
+  body { font: 15px system-ui, sans-serif; margin: 24px; }
+  textarea { width: 100%; height: 120px; font: 16px monospace; }
+  pre { background: #f4f4f4; padding: 8px; max-height: 300px; overflow: auto; }
+</style>
+</head>
+<body>
+<h1>humantype probe</h1>
+<label for="box">Input</label>
+<textarea id="box" aria-label="Input"></textarea>
+<button id="reset" type="button">Reset</button>
+<pre id="out"></pre>
+<script>
+  // Records keydown timing so typing cadence can be measured from outside.
+  const box = document.getElementById('box');
+  const out = document.getElementById('out');
+  window.__log = [];
+  box.addEventListener('keydown', e => {
+    window.__log.push({ t: performance.now(), key: e.key, code: e.code, trusted: e.isTrusted });
+  });
+  window.__pastes = [];
+  box.addEventListener('paste', e => {
+    window.__pastes.push({ t: performance.now(), text: e.clipboardData.getData('text'), trusted: e.isTrusted });
+  });
+  box.addEventListener('input', e => {
+    const last = window.__log[window.__log.length - 1];
+    if (last) last.inputType = e.inputType;
+  });
+  document.getElementById('reset').onclick = () => { window.__log = []; window.__pastes = []; box.value = ''; out.textContent = ''; };
+  // Summary: gaps between consecutive keydowns, in ms.
+  window.__summary = () => {
+    const l = window.__log;
+    const gaps = l.slice(1).map((e, i) => Math.round(e.t - l[i].t));
+    return JSON.stringify({
+      n: l.length,
+      value: box.value,
+      allTrusted: l.every(e => e.trusted),
+      keys: l.map(e => e.key).join('|'),
+      gaps,
+      pastes: window.__pastes.map(p => ({ text: p.text, trusted: p.trusted })),
+      pasteInputs: l.filter(e => e.inputType === 'insertFromPaste').length,
+    });
+  };
+</script>
+</body>
+</html>

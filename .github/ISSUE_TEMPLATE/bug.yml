@@ -1,0 +1,59 @@
+name: Bug report
+description: A wrong plan, a failed paste, a bad render for Claude in Chrome or Browser MCP, or a span the rules got wrong
+labels: [bug]
+body:
+  - type: dropdown
+    id: backend
+    attributes:
+      label: Backend
+      options:
+        - Claude in Chrome
+        - Browser MCP
+        - Neither (CLI only)
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: OS
+      placeholder: Windows 11, macOS 15, Ubuntu 24.04
+    validations:
+      required: true
+  - type: input
+    id: node
+    attributes:
+      label: Node version
+      description: Output of `node --version`
+      placeholder: v22.11.0
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: humantype version
+      description: Output of `humantype --version`
+      placeholder: 0.1.0
+    validations:
+      required: true
+  - type: textarea
+    id: meta
+    attributes:
+      label: The meta line
+      description: The JSON line `humantype plan ... --out` printed. Remove anything private.
+      render: json
+    validations:
+      required: true
+  - type: textarea
+    id: verify
+    attributes:
+      label: The verify result
+      description: What the `humantype verify` check returned in the page (`MATCH`, `MATCH_WS`, or `DIFF at ...`).
+    validations:
+      required: true
+  - type: textarea
+    id: happened
+    attributes:
+      label: What happened
+      description: What you expected, what you saw, and the site or field type (input, textarea, contenteditable). Do not paste private content.
+    validations:
+      required: true
